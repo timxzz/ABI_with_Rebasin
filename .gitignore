@@ -1,0 +1,11 @@
+__pycache__
+data
+hmc_ckpts
+saved_models
+wandb
+logs
+runs
+plot_data
+saved_plots
+.vscode
+.DS_Store

@@ -1,0 +1,22 @@
+{
+    "_comment": "Copy and create new config for new experiments",
+    "MNIST": {
+        "test3.2": {
+            "hmc": {
+                "step_size": 0.001,
+                "num_samples": 10000,
+                "L": 500,
+                "tau": 1.0,
+                "tau_out": 1.0,
+                "normalizing_const": 1.0,
+                "burn": 100,
+                "seed": 123
+            },
+            "net": {
+                "input_dim": 784,
+                "output_dim": 10,
+                "init_std": 0.05
+            }
+        }
+    }
+}
